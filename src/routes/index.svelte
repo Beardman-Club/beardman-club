@@ -4,13 +4,9 @@
 	import Footer from '../components/Footer.svelte';
 </script>
 
-<Navbar />
-
 <main>
 	<BeardmansGrid />
 </main>
-
-<Footer />
 
 <style>
     main {
