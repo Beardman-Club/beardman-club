@@ -1,14 +1,14 @@
 <script>
-	import beardman1 from '/static/assets/images/pixil-frame-0.png';
-	import beardman2 from '/static/assets/images/pixil-frame-0_1.png';
-	import beardman3 from '/static/assets/images/pixil-frame-0_2.png';
-	import beardman4 from '/static/assets/images/pixil-frame-0_3.png';
-	import beardman5 from '/static/assets/images/pixil-frame-0_4.png';
-	import beardman6 from '/static/assets/images/pixil-frame-0_5.png';
-	import beardman7 from '/static/assets/images/pixil-frame-0_6.png';
-	import beardman8 from '/static/assets/images/pixil-frame-0_7.png';
-	import beardman9 from '/static/assets/images/pixil-frame-0_8.png';
-	import beardman10 from '/static/assets/images/pixil-frame-0_9.png';
+	import beardman1 from '/assets/images/pixil-frame-0.png';
+	import beardman2 from '/assets/images/pixil-frame-0_1.png';
+	import beardman3 from '/assets/images/pixil-frame-0_2.png';
+	import beardman4 from '/assets/images/pixil-frame-0_3.png';
+	import beardman5 from '/assets/images/pixil-frame-0_4.png';
+	import beardman6 from '/assets/images/pixil-frame-0_5.png';
+	import beardman7 from '/assets/images/pixil-frame-0_6.png';
+	import beardman8 from '/assets/images/pixil-frame-0_7.png';
+	import beardman9 from '/assets/images/pixil-frame-0_8.png';
+	import beardman10 from '/assets/images/pixil-frame-0_9.png';
 
 	import BearmanCard from './BearmanCard.svelte';
 </script>
@@ -34,25 +34,25 @@
         gap: 50px;
     }
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1600px) {
         div {
             grid-template-columns: repeat(4, 1fr);
         }
     }
 
-    @media (max-width: 1000px) {
+    @media (max-width: 1300px) {
         div {
             grid-template-columns: repeat(3, 1fr);
         }
     }
 
-    @media (max-width: 800px) {
+    @media (max-width: 1000px) {
         div {
             grid-template-columns: 1fr 1fr;
         }
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
         div {
             grid-template-columns:  1fr;
         }
