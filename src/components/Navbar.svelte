@@ -12,7 +12,7 @@
 			justify-content: center;
 			align-items: center;
 
-			border-bottom: #000000 2px solid;
+			border-bottom: black 3px solid;
 			background: var(--background-color__light);
 			height: 70px;
 	}
