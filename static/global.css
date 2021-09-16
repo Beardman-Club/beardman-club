@@ -1,0 +1,13 @@
+@import "reset.css";
+
+:root {
+    --color-primary: #32868c;
+    --color-primary__dark: #256367;
+
+    --background-color: #131313;
+}
+
+body {
+    background: var(--background-color);
+    color: var(--color-primary);
+}
