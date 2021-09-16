@@ -14,16 +14,16 @@
 </script>
 
 <div>
-	<BearmanCard name='Beardman 1' url='{beardman1}' />
-	<BearmanCard name='Beardman 2' url='{beardman2}' />
-	<BearmanCard name='Beardman 3' url='{beardman3}' />
-	<BearmanCard name='Beardman 4' url='{beardman4}' />
-	<BearmanCard name='Beardman 5' url='{beardman5}' />
-	<BearmanCard name='Beardman 6' url='{beardman6}' />
-	<BearmanCard name='Beardman 7' url='{beardman7}' />
-	<BearmanCard name='Beardman 8' url='{beardman8}' />
-	<BearmanCard name='Beardman 9' url='{beardman9}' />
-	<BearmanCard name='Beardman 10' url='{beardman10}' />
+	<BearmanCard name='Beardman 1' url='{beardman1}' price='1 SOL' />
+	<BearmanCard name='Beardman 2' url='{beardman2}' price='1 SOL' />
+	<BearmanCard name='Beardman 3' url='{beardman3}' price='1 SOL' />
+	<BearmanCard name='Beardman 4' url='{beardman4}' price='1 SOL' />
+	<BearmanCard name='Beardman 5' url='{beardman5}' price='1 SOL' />
+	<BearmanCard name='Beardman 6' url='{beardman6}' price='1 SOL' />
+	<BearmanCard name='Beardman 7' url='{beardman7}' price='1 SOL' />
+	<BearmanCard name='Beardman 8' url='{beardman8}' price='1 SOL' />
+	<BearmanCard name='Beardman 9' url='{beardman9}' price='1 SOL' />
+	<BearmanCard name='Beardman 10' url='{beardman10}' price='1 SOL' />
 </div>
 
 <style>
@@ -32,5 +32,29 @@
         grid-template-columns: repeat(5, 1fr);
         justify-items: center;
         gap: 50px;
+    }
+
+    @media (max-width: 1300px) {
+        div {
+            grid-template-columns: repeat(4, 1fr);
+        }
+    }
+
+    @media (max-width: 1000px) {
+        div {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+
+    @media (max-width: 800px) {
+        div {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    @media (max-width: 500px) {
+        div {
+            grid-template-columns:  1fr;
+        }
     }
 </style>

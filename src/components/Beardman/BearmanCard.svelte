@@ -1,10 +1,14 @@
-<script>
-	export let url, name, link = 'https://solsea.io/collection/61349862c380013a65a17a7b';
+<script lang='ts'>
+	export let url: string,
+		name: string,
+		price: number,
+		link: string = 'https://solsea.io/collection/61349862c380013a65a17a7b';
 </script>
 
 <div class='beardman-card'>
 	<img src='{url}' alt='{name}'>
 	<h3>{name}</h3>
+	<h4>{price}</h4>
 	<div class='button'>
 		<a href='{link}' target='_blank'>Acheter</a>
 	</div>
@@ -16,18 +20,19 @@
     box-shadow: 3px 4px 12px 3px #565656;
     border-radius: 20px;
 
-		&:hover {
-			position: relative;
-			bottom: 8px;
-		}
+    &:hover {
+      position: relative;
+      bottom: 8px;
+    }
   }
 
-  h3 {
+  h3, h4 {
     color: var(--background-color);
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
   }
+
 
   .button {
     display: flex;
@@ -48,7 +53,7 @@
   }
 
   img {
-		border-radius: 20px;
+    border-radius: 20px;
     width: 250px;
   }
 </style>

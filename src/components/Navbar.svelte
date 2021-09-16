@@ -13,7 +13,7 @@
 			align-items: center;
 
 			border-bottom: #000000 2px solid;
-			background: #1f1f1f;
+			background: var(--background-color__light);
 			height: 70px;
 	}
 </style>
