@@ -10,7 +10,7 @@
 	<h3>{name}</h3>
 	<h4>{price}</h4>
 	<div class='button'>
-		<a href='{link}' target='_blank'>Acheter</a>
+		<a href='{link}' target='_blank'>Buy !</a>
 	</div>
 </div>
 
