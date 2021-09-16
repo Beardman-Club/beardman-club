@@ -53,7 +53,7 @@
   }
 
   img {
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
     width: 250px;
   }
 </style>
