@@ -2,7 +2,7 @@
 	export let url: string,
 		name: string,
 		price: number,
-		link: string = 'https://solsea.io/collection/61349862c380013a65a17a7b';
+		link: string;
 </script>
 
 <div class='beardman-card'>
@@ -19,6 +19,7 @@
     background: #e3e3e3;
     box-shadow: 3px 4px 12px 3px #565656;
     border-radius: 20px;
+    transition: all 2s linear;
 
     &:hover {
       position: relative;
