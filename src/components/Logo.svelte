@@ -4,7 +4,7 @@
     h1 {
         width: 428px;
         font-size: 4rem;
-        background-image: linear-gradient(90deg, #f3f6af 0%, #fbdfff 80%);
+        background-image: linear-gradient(90deg, #dae660 0%, #de12e9 80%);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     }
