@@ -1,21 +1,33 @@
 <script lang='ts'>
-  import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
+	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
+	import Text from '../components/UI/Text.svelte';
 </script>
 
 <main>
-    <div class="text">
-        <h1>Welcome to the Beardman Club !</h1>
-        <p>
-            The Beardman Club is a club about the Mystic Beard. This is the beard that unites us against our enemies of
-            all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
-            mountain. They found a old script talking about the mystical beard fighting the enemies
-        </p>
-    </div>
+	<div class='text'>
+		<h1>Welcome to the Beardman Club !</h1>
+		<Text textAlign='center'>
+			The Beardman Club is a club about the Mystic Beard. This is the beard that unites us against our enemies of
+			all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
+			mountain. They found a old script talking about the mystical beard fighting the enemies
+		</Text>
+	</div>
 
-    <BeardmansGrid/>
+	<BeardmansGrid />
+
+	<div class='text'>
+		<Text>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+			magna
+			aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+			sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</Text>
+	</div>
 </main>
 
-<style lang="scss">
+<style lang='scss'>
   main {
     margin: 50px 80px;
 
@@ -27,10 +39,8 @@
         text-align: center;
       }
 
-      p {
-        font-size: 1.5rem;
-        margin: 20px auto;
-        text-align: center;
+      &:last-of-type {
+        margin-top: 50px;
       }
     }
   }
