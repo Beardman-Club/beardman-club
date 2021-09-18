@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-				padding: 10px var(--container-size);
+				padding: 20px var(--container-size);
 
         border-bottom: black 3px solid;
         background: var(--background-color__light);
