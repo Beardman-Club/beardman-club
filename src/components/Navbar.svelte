@@ -1,19 +1,26 @@
 <script>
 	import Logo from './Logo.svelte';
+	import Social from './Social.svelte';
 </script>
 
 <nav>
 	<Logo />
+	<Social />
 </nav>
 
-<style>
-	nav {
-			display: flex;
-			justify-content: center;
-			align-items: center;
+<style lang='scss'>
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+				padding: 10px var(--container-size);
 
-			border-bottom: black 3px solid;
-			background: var(--background-color__light);
-			height: 80px;
-	}
+        border-bottom: black 3px solid;
+        background: var(--background-color__light);
+
+			@media (max-width: 800px) {
+				flex-direction: column;
+				gap: 20px;
+      }
+    }
 </style>
