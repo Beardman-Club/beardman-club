@@ -14,6 +14,6 @@
 
 			border-bottom: black 3px solid;
 			background: var(--background-color__light);
-			height: 70px;
+			height: 80px;
 	}
 </style>

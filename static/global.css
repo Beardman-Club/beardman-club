@@ -1,4 +1,5 @@
 @import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Caveat+Brush&family=Ceviche+One&family=Chewy&family=Goudy+Bookletter+1911&family=Kreon&family=Limelight&family=Mirza&family=Patrick+Hand+SC&family=Wendy+One&display=swap');
 
 :root {
     --color-primary: #32868c;
@@ -11,4 +12,9 @@
 body {
     background: var(--background-color);
     color: var(--color-primary);
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
 }
