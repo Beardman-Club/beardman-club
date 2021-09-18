@@ -1,6 +1,10 @@
-<h1>BEARDMAN CLUB</h1>
+<a href='/'><h1>BEARDMAN CLUB</h1></a>
 
 <style>
+    a {
+        text-decoration: none;
+    }
+
     h1 {
         width: 428px;
         font-size: 4rem;
