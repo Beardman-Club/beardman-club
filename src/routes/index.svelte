@@ -29,7 +29,7 @@
 
 <style lang='scss'>
   main {
-    margin: 50px 80px;
+    margin: 50px var(--container-size);
 
     .text {
       margin-bottom: 50px;

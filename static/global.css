@@ -10,6 +10,9 @@
 
     --header-font: 'Patrick Hand SC', cursive;
     --main-font: 'Goudy Bookletter 1911', serif;
+
+
+    --container-size: 80px;
 }
 
 body {
