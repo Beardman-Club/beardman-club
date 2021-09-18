@@ -14,7 +14,6 @@
         justify-content: space-between;
         align-items: center;
 				padding: 20px var(--container-size);
-
         border-bottom: black 3px solid;
         background: var(--background-color__light);
 
