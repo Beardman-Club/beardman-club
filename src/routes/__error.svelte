@@ -7,7 +7,7 @@
 
 <style lang='scss'>
   main {
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;

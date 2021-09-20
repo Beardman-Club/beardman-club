@@ -17,7 +17,7 @@
     justify-content: space-between;
     align-items: center;
     border-top: 3px black solid;
-    padding: 40px var(--container-size);
+    padding: 40px var(--container-marge);
 
     .copyright {
       font-size: 1.5rem;

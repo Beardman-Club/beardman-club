@@ -1,6 +1,6 @@
 <script lang='ts'>
-	import twitterLogo from '/assets/images/twitter.png';
-	import discordLogo from '/assets/images/discord-logo-transparent.png';
+	const twitterLogo = '/assets/images/twitter.png';
+	const discordLogo = '/assets/images/discord-logo-transparent.png';
 
 	const twitterLink: string = 'https://twitter.com/BeardmanClub';
 	const discordLink: string = 'https://discord.gg/MjUv4cDt';
