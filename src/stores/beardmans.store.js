@@ -1,4 +1,6 @@
-export const beardmans = [
+import { writable } from 'svelte/store';
+
+export const beardmansStore = writable([
 	{
 		'name': 'Beardman 1',
 		'imageUrl': '/assets/images/pixil-frame-0.png',
@@ -59,4 +61,4 @@ export const beardmans = [
 		'price': '1 SOL',
 		'link': 'https://solsea.io/collection/61349862c380013a65a17a7b'
 	}
-];
+]);

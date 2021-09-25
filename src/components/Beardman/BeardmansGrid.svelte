@@ -1,10 +1,10 @@
 <script>
-	import { beardmans } from '../../beardmans.js';
+	import { beardmansStore } from '../../stores/beardmans.store.js';
 	import BearmanCard from './BearmanCard.svelte';
 </script>
 
 <div>
-	{#each beardmans as beardman, i}
+	{#each $beardmansStore as beardman, i}
 		<BearmanCard name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price} />
 	{/each}
 </div>
