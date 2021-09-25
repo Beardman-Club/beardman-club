@@ -22,9 +22,9 @@ export function init(settings = default_settings) {
 		amp: false,
 		dev: false,
 		entry: {
-			file: assets + "/_app/start-7541a187.js",
+			file: assets + "/_app/start-653e7e1f.js",
 			css: [assets + "/_app/assets/start-61d1577b.css"],
-			js: [assets + "/_app/start-7541a187.js",assets + "/_app/chunks/vendor-5dab7cb2.js"]
+			js: [assets + "/_app/start-653e7e1f.js",assets + "/_app/chunks/vendor-c9c02e4a.js"]
 		},
 		fetched: undefined,
 		floc: false,
@@ -83,7 +83,7 @@ const module_lookup = {
 	"src/routes/__layout.svelte": () => import("../../src/routes/__layout.svelte"),"src/routes/__error.svelte": () => import("../../src/routes/__error.svelte"),"src/routes/index.svelte": () => import("../../src/routes/index.svelte")
 };
 
-const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-6d74a288.js","css":["assets/pages/__layout.svelte-ce669f43.css"],"js":["pages/__layout.svelte-6d74a288.js","chunks/vendor-5dab7cb2.js"],"styles":[]},"src/routes/__error.svelte":{"entry":"pages/__error.svelte-1078be24.js","css":["assets/pages/__error.svelte-3e42bd60.css"],"js":["pages/__error.svelte-1078be24.js","chunks/vendor-5dab7cb2.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-3d85693d.js","css":["assets/pages/index.svelte-99eadaa1.css"],"js":["pages/index.svelte-3d85693d.js","chunks/vendor-5dab7cb2.js"],"styles":[]}};
+const metadata_lookup = {"src/routes/__layout.svelte":{"entry":"pages/__layout.svelte-8871a355.js","css":["assets/pages/__layout.svelte-ce669f43.css"],"js":["pages/__layout.svelte-8871a355.js","chunks/vendor-c9c02e4a.js"],"styles":[]},"src/routes/__error.svelte":{"entry":"pages/__error.svelte-08fcb8d2.js","css":["assets/pages/__error.svelte-3e42bd60.css"],"js":["pages/__error.svelte-08fcb8d2.js","chunks/vendor-c9c02e4a.js"],"styles":[]},"src/routes/index.svelte":{"entry":"pages/index.svelte-d082a56c.js","css":["assets/pages/index.svelte-99eadaa1.css"],"js":["pages/index.svelte-d082a56c.js","chunks/vendor-c9c02e4a.js"],"styles":[]}};
 
 async function load_component(file) {
 	const { entry, css, js, styles } = metadata_lookup[file];
