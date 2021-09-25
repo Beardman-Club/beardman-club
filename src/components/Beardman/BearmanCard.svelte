@@ -1,4 +1,6 @@
 <script lang='ts'>
+	import Button from '../UI/Button.svelte';
+
 	export let url: string,
 		name: string,
 		price: number,
@@ -10,7 +12,7 @@
 	<h3>{name}</h3>
 	<h4>{price}</h4>
 	<div class='button'>
-		<a href='{link}' target='_blank'>Buy !</a>
+		<Button href='{link}'>Buy !</Button>
 	</div>
 </div>
 
@@ -39,18 +41,6 @@
     display: flex;
     justify-content: center;
     margin: 20px auto;
-
-    a {
-      background: var(--color-primary);
-      color: white;
-      text-decoration: none;
-      padding: 8px;
-      border-radius: 25%;
-
-      &:hover {
-        background: var(--color-primary__dark);
-      }
-    }
   }
 
   img {

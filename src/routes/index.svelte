@@ -1,6 +1,7 @@
 <script lang='ts'>
 	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
+	import Button from '../components/UI/Button.svelte';
 </script>
 
 <main>
@@ -11,8 +12,9 @@
 			all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
 			mountain. They found a old script talking about the mystical beard fighting the enemies.
 		</Text>
-		<br>
-		<a href='https://solsea.io/collection/61349862c380013a65a17a7b'>Collection</a>
+		<div class='button'>
+			<Button href='https://solsea.io/collection/61349862c380013a65a17a7b'>Collection</Button>
+		</div>
 	</div>
 
 	<BeardmansGrid />
@@ -43,5 +45,11 @@
         margin-top: 50px;
       }
     }
+
+		.button {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
   }
 </style>
