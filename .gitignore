@@ -1,8 +1,7 @@
 .DS_Store
 node_modules
 /build
-/.svelte-kit/dev
-/.svelte-kit/output
+/.svelte-kit
 /package
 .idea
 .storybook
