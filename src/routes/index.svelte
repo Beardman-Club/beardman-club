@@ -1,10 +1,11 @@
 <script lang='ts'>
+	import { slide } from 'svelte/transition';
 	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
 	import Button from '../components/UI/Button.svelte';
 </script>
 
-<main>
+<main transition:slide>
 	<div class='text'>
 		<h1>Welcome to the Beardman Club !</h1>
 		<Text textAlign='center'>

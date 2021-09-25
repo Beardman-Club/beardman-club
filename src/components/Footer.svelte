@@ -5,7 +5,7 @@
 </script>
 
 <footer>
-	<p class='copyright'>©{currentYear} Beardmans Club | All right reserved.</p>
+	<p class='copyright'>©{currentYear} Beardmans Club | All rights reserved.</p>
 
 	<Social />
 </footer>
