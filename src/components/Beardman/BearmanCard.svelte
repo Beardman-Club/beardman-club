@@ -4,16 +4,24 @@
 	export let url: string,
 		name: string,
 		price: number,
-		link: string;
+		link: string,
+		isSoldOut: boolean;
 </script>
 
 <div class='beardman-card'>
 	<img src='{url}' alt='{name}'>
+
 	<h3>{name}</h3>
-	<h4>{price}</h4>
-	<div class='button'>
-		<Button href='{link}'>Buy !</Button>
-	</div>
+	{#if isSoldOut}
+		<div class='sold-out'>
+			<h3>SOLD OUT</h3>
+		</div>
+	{:else }
+		<h4>{price}</h4>
+		<div class='button'>
+			<Button href='{link}'>Buy !</Button>
+		</div>
+	{/if}
 </div>
 
 <style lang='scss'>
@@ -26,6 +34,18 @@
     &:hover {
       position: relative;
       bottom: 8px;
+    }
+  }
+
+  .sold-out {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80px;
+
+    h3 {
+      color: red;
+			font-weight: 600;
     }
   }
 

@@ -5,7 +5,8 @@
 
 <div>
 	{#each $beardmansStore as beardman, i}
-		<BearmanCard name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price} />
+		<BearmanCard name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price}
+								 isSoldOut='{beardman.isSoldOut}' />
 	{/each}
 </div>
 
