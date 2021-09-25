@@ -1,5 +1,12 @@
 import { writable } from 'svelte/store';
 
+export interface Beardman {
+	name: string,
+	imageUrl: string,
+	price: string,
+	link: string,
+}
+
 export const beardmansStore = writable([
 	{
 		'name': 'Beardman 1',
