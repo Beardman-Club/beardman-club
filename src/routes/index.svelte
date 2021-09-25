@@ -11,6 +11,8 @@
 			all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
 			mountain. They found a old script talking about the mystical beard fighting the enemies.
 		</Text>
+		<br>
+		<a href='https://solsea.io/collection/61349862c380013a65a17a7b'>Collection</a>
 	</div>
 
 	<BeardmansGrid />

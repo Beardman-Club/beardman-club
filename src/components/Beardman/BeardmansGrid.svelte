@@ -1,4 +1,4 @@
-<script lang='ts'>
+<script>
 	import { beardmansStore } from '../../stores/beardmans.store.js';
 	import BearmanCard from './BearmanCard.svelte';
 </script>
