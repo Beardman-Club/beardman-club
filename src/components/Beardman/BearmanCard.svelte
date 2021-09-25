@@ -19,7 +19,7 @@
 	{:else }
 		<h4>{price}</h4>
 		<div class='button'>
-			<Button href='{link}'>Buy !</Button>
+			<Button href='{link}' targetBlank>Buy !</Button>
 		</div>
 	{/if}
 </div>
@@ -38,18 +38,18 @@
   }
 
   .sold-out {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 
     h3 {
       color: red;
-			font-weight: 600;
+      font-weight: 600;
     }
 
-		@media (max-width: 700px) {
-			padding-bottom: 20px;
+    @media (max-width: 700px) {
+      padding-bottom: 20px;
     }
   }
 

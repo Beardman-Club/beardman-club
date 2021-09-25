@@ -13,7 +13,7 @@
 			mountain. They found a old script talking about the mystical beard fighting the enemies.
 		</Text>
 		<div class='button'>
-			<Button href='https://solsea.io/collection/61349862c380013a65a17a7b'>Collection</Button>
+			<Button href='https://solsea.io/collection/61349862c380013a65a17a7b' targetBlank>Collection</Button>
 		</div>
 	</div>
 
