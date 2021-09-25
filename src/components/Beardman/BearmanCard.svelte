@@ -47,6 +47,10 @@
       color: red;
 			font-weight: 600;
     }
+
+		@media (max-width: 700px) {
+			padding-bottom: 20px;
+    }
   }
 
   h3, h4 {
