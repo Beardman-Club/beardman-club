@@ -1,6 +1,6 @@
 <script lang='ts'>
 	import { slide } from 'svelte/transition';
-	import tenFounders from '/assets/images/10_founders.png';
+	import tenFounders from '/static/assets/images/10_founders.png';
 	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
 	import Button from '../components/UI/Button.svelte';
