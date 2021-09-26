@@ -47,7 +47,7 @@
       @media (max-width: 750px) {
         margin: 40px 0;
         img {
-          width: 100%;
+          width: 130%;
         }
       }
     }
