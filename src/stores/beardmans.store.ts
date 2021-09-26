@@ -1,4 +1,4 @@
-import { readable } from 'svelte/store';
+import { Readable, readable } from 'svelte/store';
 
 export interface Beardman {
 	name: string,
@@ -8,13 +8,13 @@ export interface Beardman {
 	isSoldOut: boolean
 }
 
-export const beardmansStore = readable([
+export const beardmansStore: Readable<Beardman[]> = readable([
 	{
 		'name': 'Beardman 1',
 		'imageUrl': '/assets/images/pixil-frame-0.png',
 		'price': '1 SOL',
 		'link': 'https://solsea.io/nft/AyngreAutUf1GBPrfwJtHkM6kWVtX2tLDxGSidYz2iUC',
-		'isSoldOut': false
+		'isSoldOut': false,
 	},
 	{
 		'name': 'Beardman 2',
@@ -35,7 +35,7 @@ export const beardmansStore = readable([
 		'imageUrl': '/assets/images/pixil-frame-0_5.png',
 		'price': '1 SOL',
 		'link': 'https://solsea.io/nft/DVp1Q5ex2NGKAvRzEtJmpYENJYHtbjsAk94RpV6yjg5p',
-		'isSoldOut': false
+		'isSoldOut': true
 	},
 	{
 		'name': 'Beardman 5',
@@ -56,7 +56,7 @@ export const beardmansStore = readable([
 		'imageUrl': '/assets/images/pixil-frame-0_8.png',
 		'price': '1 SOL',
 		'link': 'https://solsea.io/nft/BdXVwW1QxrC5K2bXZUSTRWAhRyJ1EfwPhCKRpurZGLW9',
-		'isSoldOut': false
+		'isSoldOut': true
 	},
 	{
 		'name': 'Beardman 8',

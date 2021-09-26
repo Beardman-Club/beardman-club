@@ -1,5 +1,6 @@
 <script lang='ts'>
 	import { slide } from 'svelte/transition';
+	import tenFounders from '/assets/images/10_founders.png';
 	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
 	import Button from '../components/UI/Button.svelte';
@@ -8,6 +9,9 @@
 <main transition:slide>
 	<div class='text'>
 		<h1>Welcome to the Beardman Club !</h1>
+		<div class='ten-founders'>
+			<img src='{tenFounders}' alt='Ten founders.'>
+		</div>
 		<Text textAlign='center'>
 			The Beardman Club is a club about the Mystic Beard. This is the beard that unites us against our enemies of
 			all time. A group of ten Beardman fighting for their life deep in the forest found a temple inside the dark
@@ -34,6 +38,13 @@
   main {
     margin: 50px var(--container-marge);
 
+    .ten-founders {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+			margin: 40px;
+    }
+
     .text {
       margin-bottom: 50px;
 
@@ -47,10 +58,10 @@
       }
     }
 
-		.button {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
   }
 </style>

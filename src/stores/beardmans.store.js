@@ -5,14 +5,14 @@ export const beardmansStore = readable([
         'imageUrl': '/assets/images/pixil-frame-0.png',
         'price': '1 SOL',
         'link': 'https://solsea.io/nft/AyngreAutUf1GBPrfwJtHkM6kWVtX2tLDxGSidYz2iUC',
-        'isSoldOut': false
+        'isSoldOut': false,
     },
     {
         'name': 'Beardman 2',
         'imageUrl': '/assets/images/pixil-frame-0_2.png',
         'price': '1 SOL',
         'link': 'https://solsea.io/nft/BF7KSdyJZL6x2AfAvMXxLog1ozAzNBEG6KzZE5VSLx57',
-        'isSoldOut': true
+        'isSoldOut': false
     },
     {
         'name': 'Beardman 3',
@@ -26,14 +26,14 @@ export const beardmansStore = readable([
         'imageUrl': '/assets/images/pixil-frame-0_5.png',
         'price': '1 SOL',
         'link': 'https://solsea.io/nft/DVp1Q5ex2NGKAvRzEtJmpYENJYHtbjsAk94RpV6yjg5p',
-        'isSoldOut': false
+        'isSoldOut': true
     },
     {
         'name': 'Beardman 5',
         'imageUrl': '/assets/images/pixil-frame-0_6.png',
         'price': '1 SOL',
         'link': 'https://solsea.io/nft/EgEmGFrMLVsGyK3uCJh1DgrrPJmcRAV3a1aVU3FBQppF',
-        'isSoldOut': true
+        'isSoldOut': false
     },
     {
         'name': 'Beardman 6',
@@ -47,7 +47,7 @@ export const beardmansStore = readable([
         'imageUrl': '/assets/images/pixil-frame-0_8.png',
         'price': '1 SOL',
         'link': 'https://solsea.io/nft/BdXVwW1QxrC5K2bXZUSTRWAhRyJ1EfwPhCKRpurZGLW9',
-        'isSoldOut': false
+        'isSoldOut': true
     },
     {
         'name': 'Beardman 8',
