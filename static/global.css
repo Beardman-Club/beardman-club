@@ -11,7 +11,7 @@
     --header-font: 'Patrick Hand SC', cursive;
     --main-font: 'Goudy Bookletter 1911', serif;
 
-
+    --spacer: 20px;
     --container-marge: 80px;
 }
 
@@ -19,6 +19,7 @@ body {
     background: var(--background-color);
     color: var(--color-primary);
     font-family: var(--main-font);
+    max-width: 100vh;
 }
 
 h1 {
