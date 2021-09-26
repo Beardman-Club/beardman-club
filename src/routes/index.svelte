@@ -42,7 +42,14 @@
       display: flex;
       justify-content: center;
       align-items: center;
-			margin: 40px;
+      margin: 40px;
+
+      @media (max-width: 750px) {
+        margin: 40px 0;
+        img {
+          width: 100%;
+        }
+      }
     }
 
     .text {
