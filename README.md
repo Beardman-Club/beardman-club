@@ -4,6 +4,8 @@ Site web du Beardman Club.
 
 Créer avec [SvelteKit](https://kit.svelte.dev).
 
+Link : https://beardmans-club.netlify.app
+
 ## Developing
 
 Installation : `npm install` (or `pnpm install` or `yarn`)
