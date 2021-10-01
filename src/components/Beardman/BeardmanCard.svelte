@@ -30,7 +30,7 @@
     box-shadow: 3px 4px 12px 3px #565656;
     border-radius: 20px;
 		bottom: 0;
-    transition: bottom 0.25s ease-in;
+    transition: bottom 0.25s ease-in-out;
 
     &:hover {
       position: relative;
