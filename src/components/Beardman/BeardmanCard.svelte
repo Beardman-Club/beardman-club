@@ -9,7 +9,7 @@
 </script>
 
 <div class='beardman-card'>
-	<img src='{url}' alt='{name}'>
+	<a href='{link}' target='_blank'><img src='{url}' alt='{name}'></a>
 
 	<h3>{name}</h3>
 	{#if isSoldOut}
@@ -29,11 +29,12 @@
     background: #e3e3e3;
     box-shadow: 3px 4px 12px 3px #565656;
     border-radius: 20px;
-    transition: all 2s linear;
+		bottom: 0;
+    transition: bottom 0.25s ease-in;
 
     &:hover {
       position: relative;
-      bottom: 8px;
+      bottom: 10px;
     }
   }
 
