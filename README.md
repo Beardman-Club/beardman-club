@@ -4,7 +4,7 @@ Site web du Beardman Club.
 
 Créer avec [SvelteKit](https://kit.svelte.dev).
 
-Link demo : https://beardmans-club.netlify.app
+Link demo : https://beardman-club.netlify.app
 
 ## Routes
 
