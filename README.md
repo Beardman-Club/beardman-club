@@ -8,6 +8,7 @@ Link demo : https://beardmans-club.netlify.app
 
 ## Routes
 
+*/src/routes/* :
 ```bash
 ├── __error.svelte
 ├── index.svelte
@@ -20,6 +21,7 @@ Link demo : https://beardmans-club.netlify.app
 
 ## Components tree
 
+*/src/components/* :
 ```bash
 ├── Beardman
 │    ├── BeardmanCard.svelte
@@ -37,6 +39,8 @@ Link demo : https://beardmans-club.netlify.app
 - Beardman/ : Composantes de la Grille et des Cartes Beardmans
 
 ## Stores
+
+*src/stores/*
 
 - beardmans.store.ts : Interface et données de la première génération des beardmans.
 
