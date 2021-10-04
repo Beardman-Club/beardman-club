@@ -3,13 +3,15 @@
 	import BeardmansGrid from '../components/Beardman/BeardmansGrid.svelte';
 	import Text from '../components/UI/Text.svelte';
 	import Button from '../components/UI/Button.svelte';
+
+	const collectionLink = 'https://solsea.io/collection/61349862c380013a65a17a7b';
 </script>
 
 <main>
 	<div class='text'>
 		<h1>Welcome to the Beardman Club !</h1>
 		<div class='ten-founders'>
-			<img src='{tenFounders}' alt='Ten founders.'>
+			<a href='{collectionLink}' target='_blank'><img src='{tenFounders}' alt='Ten founders.'></a>
 		</div>
 		<Text textAlign='center'>
 			The Beardman Club is a club about the Mystic Beard. This is the beard that unites us against our enemies of
@@ -17,7 +19,7 @@
 			mountain. They found a old script talking about the mystical beard fighting the enemies.
 		</Text>
 		<div class='button'>
-			<Button href='https://solsea.io/collection/61349862c380013a65a17a7b' targetBlank>Collection</Button>
+			<Button href={collectionLink} targetBlank>Collection</Button>
 		</div>
 	</div>
 

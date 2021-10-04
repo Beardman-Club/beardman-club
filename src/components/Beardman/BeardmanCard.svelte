@@ -8,13 +8,13 @@
 		isSoldOut: boolean;
 </script>
 
-<div class='beardman-card'>
+<div class='beardman-card' class:sold-out={isSoldOut}>
 	<a href='{link}' target='_blank'><img src='{url}' alt='{name}'></a>
 
 	<h3>{name}</h3>
 	{#if isSoldOut}
-		<div class='sold-out'>
-			<h3>SOLD OUT</h3>
+		<div>
+			<h4>SOLD OUT</h4>
 		</div>
 	{:else }
 		<h4>{price}</h4>
@@ -36,15 +36,25 @@
       position: relative;
       bottom: 10px;
     }
+
+		&.sold-out {
+			transition: none;
+
+			&:hover {
+				bottom: 0;
+			}
+		}
   }
 
   .sold-out {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80px;
+		div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80px;
+		}
 
-    h3 {
+    h4 {
       color: red;
       font-weight: 600;
     }
