@@ -55,7 +55,9 @@ npm run dev -- --open
 
 ## Building
 
-Netlify adapter
+Netlify adapter. 
+
+Config file : `netlify.toml`
 
 ```bash
 npm run build
