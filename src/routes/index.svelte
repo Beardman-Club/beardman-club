@@ -47,9 +47,11 @@
       margin: 40px;
 
       @media (max-width: 750px) {
-        margin: 40px 0;
+        margin: 40px -40px;
+
+
         img {
-          width: 130%;
+          width: 100%;
         }
       }
     }
