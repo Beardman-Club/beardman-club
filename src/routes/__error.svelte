@@ -34,6 +34,10 @@
 				position: relative;
 				bottom: 10px;
 			}
+
+			@media (max-width: 760px) {
+			margin: 0 10%;
+			}
     }
   }
 </style>
