@@ -1,13 +1,13 @@
 <script>
-	import { beardmansStore } from '../../stores/beardmans.store.js';
-	import BeardmanCard from './BeardmanCard.svelte';
+  import { beardmansStore } from "../../stores/beardmans.store.js";
+  import BeardmanCard from "./BeardmanCard.svelte";
 </script>
 
 <div>
-	{#each $beardmansStore as beardman, i}
-		<BeardmanCard name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price}
-								 isSoldOut='{beardman.isSoldOut}' />
-	{/each}
+  {#each $beardmansStore as beardman, i}
+    <BeardmanCard id={i} name={beardman.name} url={beardman.imageUrl} link={beardman.link} price={beardman.price}
+                  isSoldOut="{beardman.isSoldOut}" />
+  {/each}
 </div>
 
 <style>
