@@ -3,7 +3,7 @@
 
 	export let url: string,
 		name: string,
-		price: number,
+		price: string,
 		link: string,
 		isSoldOut: boolean;
 </script>
