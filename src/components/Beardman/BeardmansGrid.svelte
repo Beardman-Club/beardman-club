@@ -10,35 +10,27 @@
   {/each}
 </div>
 
-<style>
-    div {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        justify-items: center;
-        gap: 50px;
-    }
+<style lang="scss">
+  div {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    gap: 50px;
 
     @media (max-width: 1600px) {
-        div {
-            grid-template-columns: repeat(4, 1fr);
-        }
+      grid-template-columns: repeat(4, 1fr);
     }
 
     @media (max-width: 1300px) {
-        div {
-            grid-template-columns: repeat(3, 1fr);
-        }
+      grid-template-columns: repeat(3, 1fr);
     }
 
     @media (max-width: 1000px) {
-        div {
-            grid-template-columns: 1fr 1fr;
-        }
+      grid-template-columns: repeat(2, 1fr);
     }
 
     @media (max-width: 700px) {
-        div {
-            grid-template-columns:  1fr;
-        }
+      grid-template-columns:  1fr;
     }
+  }
 </style>

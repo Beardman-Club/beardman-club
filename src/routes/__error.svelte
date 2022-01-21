@@ -19,8 +19,9 @@
       border-radius: 20px;
       padding: 100px;
 			text-align: center;
+			transition: bottom 2s ease-in-out;
 
-      h1 {
+			h1 {
         font-size: 4rem;
         color: var(--background-color__light);
       }
